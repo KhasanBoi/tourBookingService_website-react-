@@ -1,0 +1,18 @@
+.header {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px 0px;
+
+    .option {
+        padding: 10px 15px;
+        text-decoration: none;
+        color: grey;
+        &:hover {
+            transform: scale(1.01);
+            transition: all 0.1s ease-in;
+            color:  #404040;
+        }
+    }
+}
